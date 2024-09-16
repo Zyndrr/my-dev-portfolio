@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Bio from './sections/Bio'
 
 function App() {
  // const [count, setCount] = useState(0)
@@ -10,7 +11,9 @@ function App() {
     <>
       
     <div className="container-md mx-auto grid grid-col01 md:grid-cols-3 gap-4 p-3 md:p-7">
-      <div className="border border-red-500 text-amber-800"> column 1</div>
+      <div className="">
+        <Bio />
+      </div>
       <div className="border border-black col-span-2"> column 2</div>
     </div>
   
