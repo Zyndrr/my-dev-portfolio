@@ -3,11 +3,11 @@ import { Linkedin, AtSign, GitBranch } from "lucide-react";
 const Bio = () => {
   return (
     <section className="bg-white text-center md:text-left rounded-xl p-2 md:p-5 shadow-md">
-        <img 
-        src="/me.png" 
-        alt="Erin McKanna profile picture" 
-        className="rounded-full w-32 h-32 mx-auto md:mx-0" 
-        />
+      <img
+        src="/me.png"
+        alt="Erin McKanna profile picture"
+        className="h-32 w-32 rounded-full"
+      />
       <h1 className="text-lg md:text-2xl font-bold mt-3">Erin McKanna</h1>
       <p className="text-secondary-foreground py-2">
         I'm a Junior Full-Stack Engineer.
