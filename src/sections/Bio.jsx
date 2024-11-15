@@ -6,14 +6,17 @@ const Bio = () => {
       <img
         src="/me.png"
         alt="Erin McKanna profile picture"
-        className="h-32 w-32 rounded-full"
+        className="h-32 w-32 rounded-full mx-auto md:mx-0"
       />
       <h1 className="text-lg md:text-2xl font-bold mt-3">Erin McKanna</h1>
       <p className="text-secondary-foreground py-2">
-        I'm a Junior Full-Stack Engineer.
+        I recently completed a full stack certification with University of Denver, where I learned to
+        build web apps using HTML, CSS, JavaScript, and React. I’m excited to
+        start applying my skills to real-world projects and continue growing in
+        the tech industry..
       </p>
 
-      <div className="flex flex-row gap-2 mt-2">
+      <div className="flex flex-row justify-center md:justify-start gap-2 mt-2">
         <a
           href="https://www.linkedin.com/in/erin-mckanna-8b0325228/"
           target="_blank"
